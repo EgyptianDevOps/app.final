@@ -5,6 +5,7 @@ provider "cloudflare" {
   email     = var.cloudflare_email
   api_token = var.cloudflare_api_token
 }
+#Remark
 
 resource "cloudflare_record" "root" {
   zone_id = var.cloudflare_zone_id
